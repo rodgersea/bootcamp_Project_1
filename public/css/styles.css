@@ -1,0 +1,162 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#external-events {
+  /* position: fixed; */
+  z-index: 2;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+
+#external-events .fc-event {
+  border: rgba(87, 0, 99, 0.384);
+  background:  rgba(87, 0, 99, 0.384);
+  margin: 1.1em 0;
+  padding: 3px;
+ 
+}
+ 
+a {
+  color: white !important;
+  border: rgba(87, 0, 99, 0.384)!important;
+  background: rgba(87, 0, 99, 0.384) !important;
+  padding: 3px !important;
+}
+
+#calendar-container {
+  position: relative;
+  z-index: 1;
+  margin-left: 200px;
+
+}
+
+#calendar {
+  max-width: 100%;
+  margin: 20px auto;
+}
+  
+.button {
+  margin: 3px;
+}
+
+.form-control {
+  margin: 5px auto;
+}
+
+.form-label {
+  margin: 5px auto;
+}
+
+#calendarModal {
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.required {
+  color: red;
+}
+
+#deleteEvent{
+  margin-right: 170px;
+}
+
+#editModalHeader{
+  background-color: rgba(87, 0, 99, 0.384) !important;
+}
+
+#modalErrorText{
+  font-size: 12px;
+  color: red;
+  margin: 0;
+}
+
+#required-description{
+  margin: 0;
+}
+
+#editModalBody {
+  padding-bottom: 0;
+}
+
+#editModalFormGroup {
+  margin-bottom: 8px;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.modal-backdrop {
+  z-index: 1 !important;
+}
+
+#addStu, #deleteStu, #addBtn, #deleteBtn {
+  color: white !important;
+  border:  rgba(87, 0, 99, 0.384) !important;
+  background:   rgba(87, 0, 99, 0.384) !important;
+  margin: 5px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+span {
+  display: inline-block;
+}
+
+.fc-button-primary:not(:disabled).fc-button-active {
+  background-color: gray;
+  border-color: gray;
+}
+
+button.fc-next-button.fc-button.fc-button-primary  
+button.fc-prev-button.fc-button.fc-button-primary, 
+.fc-button-group>.fc-button {
+  color: white;
+  background-color: rgba(31, 0, 34, 0.879);
+  border-color: rgba(31, 0, 34, 0.879);
+}
+
+button.fc-next-button.fc-button.fc-button-primary > span:hover, 
+button.fc-prev-button.fc-button.fc-button-primary > span:hover {
+  color:rgba(31, 0, 34, 0.879);
+  background-color:  white;
+  border-color: white;
+  border-radius: 3px;
+
+}
+
+#smoslHeader {
+  text-align: center;
+  color:  rgba(87, 0, 99, 0.384);
+}
+
+.jumbotron {
+  background-color: white;
+  padding-bottom: 5px !important;
+}
+
+.scroll {
+  max-height: 475px;
+  overflow-y: auto;
+}
+
+.col-sm-9 {
+  position: relative;
+  top: -8px;
+  bottom: 8px;
+}
